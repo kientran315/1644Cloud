@@ -1,0 +1,23 @@
+<div class="container">
+   <h1>Add Product</h1>
+   <form action="/onepiece/add" method="post">
+      <div class="mb-3">
+         <label for="name" class="form-label">Toy Name</label>
+         <input type="text" class="form-control" id="name" name="name" placeholder="Enter toy name" required>
+      </div>
+      <div class="mb-3">
+         <label for="description" class="form-label">Toy Description</label>
+         <textarea class="form-control" id="description" name="description" rows="3"
+            placeholder="Enter toy description"></textarea>
+      </div>
+      <div class="mb-3">
+         <label for="price" class="form-label">Price</label>
+         <input type="number" class="form-control" id="price" name="price" placeholder="Enter toy price" required>
+      </div>
+      <div class="mt-3">
+         <label for="image">Image</label>
+         <input class="form-control" type="url" name="image" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Product</button>
+   </form>
+</div>

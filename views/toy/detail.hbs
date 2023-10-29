@@ -1,0 +1,22 @@
+<div class="container bootdey">
+    <div class="col-md-12">
+        <section class="panel">
+            <div class="panel-body">
+                <div class="row">
+                    <!-- Phần hiển thị ảnh ở giữa bên trái -->
+                    <div class="col-md-8">
+                        <div class="pro-img-details" style="max-width: 300px; margin: 0 auto;">
+                            <img src="{{toy.image}}" style="max-width: 100%; height: auto; " alt="">
+                        </div>
+                    </div>
+                    <!-- Phần hiển thị thông tin sản phẩm -->
+                    <div class="col-md-4">
+                        <h1>{{ toy.name }}</h1>
+                        <p>{{ toy.description }}</p>
+                        <h6>Price: {{ toy.price }}</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
